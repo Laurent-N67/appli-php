@@ -1,0 +1,67 @@
+
+table{
+    border-collapse: collapse;
+}
+td{
+    border: solid 1px black;
+    padding: 5px;
+}
+
+.total{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button{
+    background: transparent;
+    padding: 0.5em 1em;
+    color:black;
+    border:none;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.fa-solid.fa-cart-shopping{
+    font-size: 1em;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    margin: 1em;
+}
+p{
+    margin:1em;
+}
+body{
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+h1{
+    font-weight: bold;
+}
+.product{
+    padding: 5px 5em;
+}
+.qtt{
+    padding: 5px 5em;
+}
+.fa-solid.fa-minus{
+    font-size: 1em;
+}
+.vide{
+    font-weight: normal;
+    background:transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.tableau{
+    
+    text-align: center;
+    text-transform: capitalize;
+    
+}
