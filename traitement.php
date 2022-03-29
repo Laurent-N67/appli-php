@@ -46,7 +46,7 @@
                     break;
 
                 case "suppr":
-                    if(isset($_GET["id"]) && isset($_SESSION["products"][$_GET["id"]]) && $_SESSION["products"][$_GET["id"]]["qtt"] > 1){
+                    if(isset($_GET["id"]) && isset($_SESSION["products"][$_GET["id"]]) && $_SESSION["products"][$_GET["id"]]["qtt"] >= 1){
                         unset( $_SESSION["products"][$_GET["id"]]);
                     }
                     header("location:recap.php");
